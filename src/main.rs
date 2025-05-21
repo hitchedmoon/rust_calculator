@@ -40,7 +40,7 @@ fn main() {
         println!("Kein Valid Operator: {}", operator);
     }
 
-    // WITH MATCH BECAUSE IM COOL AND I LOVE TO LEARN NEW THINGS
+    // WITH MATCH BECAUSE IM COOL AND I LOVE TO LEARN NEW THINGS LIKE MATCH CASE
     let result = match operator {
         "+" => zahl1 + zahl2,
         "-" => zahl1 - zahl2,
