@@ -39,5 +39,25 @@ fn main() {
     } else {
         println!("Kein Valid Operator: {}", operator);
     }
+
+    // WITH MATCH BECAUSE IM COOL AND I LOVE TO LEARN NEW THINGS
+    let result = match operator {
+        "+" => zahl1 + zahl2,
+        "-" => zahl1 - zahl2,
+        "/" => {
+            if zahl2 == 0.0 {
+                println!("you sneaky... dont try /0");
+                return;
+            }
+            zahl1 / zahl2
+        },
+        "*" => zahl1 * zahl2,
+        _ => {
+            println!("why try a secret operator that doesnt work:((((!!!!!!!");
+            return;
+        }
+    };
+
+    println!("Ergebnis: {} {} {} = {}", zahl1, operator, zahl2, result);
 }
 
