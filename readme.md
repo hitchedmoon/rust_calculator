@@ -5,9 +5,6 @@
   <summary>Clickme</summary>
   
   ### Header 
-  1.Foo 
-  2. Bar 
-    * Baz
-    * Qux
+  Heyy
   
 </details>
